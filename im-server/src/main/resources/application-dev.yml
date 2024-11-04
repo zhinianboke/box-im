@@ -1,0 +1,8 @@
+spring:
+  data:
+    redis:
+      host: 49.7.179.70
+      port: 6666
+      database: 2
+      password: zhinianblog
+

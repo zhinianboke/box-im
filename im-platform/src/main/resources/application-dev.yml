@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://49.7.179.70:3306/im_platform?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: im_platform
+    password: im_platform
+  data:
+    redis:
+      host: 49.7.179.70
+      port: 6666
+      database: 2
+      password: zhinianblog
+
+minio:
+  endpoint: http://49.7.179.70:9900 #内网地址
+  domain: http://49.7.179.70:9900  #外网访问地址
+  accessKey: 8gCPyxr9W6x2GyVYLpOU
+  secretKey: eYh3xqdcMNZ07jw9yYNgzf66kNCSQMlNr7uRkhJc
+  bucketName: box-im
+  imagePath: image
+  filePath: file
+  videoPath: video
+
+webrtc:
+  max-channel: 9 # 多人通话最大通道数量，最大不能超过16,建议值:4,9,16
+  iceServers:
+    - urls: stun:stun.l.google.com:19302
+
+
