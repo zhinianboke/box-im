@@ -8,8 +8,6 @@
 /im-platform/target/
 /im-client/target/
 /im-common/target/
-/im-web/node_modules/
 /im-web/dist/
-/im-uniapp/node_modules/
 /im-uniapp/package-lock.json
 /im-uniapp/unpackage/
