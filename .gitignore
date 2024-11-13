@@ -6,8 +6,10 @@
 /im-common/im-common.iml
 /im-server/target/
 /im-platform/target/
+/im-web/node_modules/
 /im-client/target/
 /im-common/target/
 /im-web/dist/
 /im-uniapp/package-lock.json
 /im-uniapp/unpackage/
+/im-uniapp/node_modules/

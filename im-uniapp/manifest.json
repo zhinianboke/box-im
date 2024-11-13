@@ -125,7 +125,9 @@
         "router" : {
             "base" : "/h5/"
         }
-    }
+    },
+    "fallbackLocale" : "zh-Hans",
+    "locale" : "zh-Hans"
 }
 /* ios打包配置 *//* SDK配置 */
 
